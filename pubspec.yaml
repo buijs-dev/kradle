@@ -1,0 +1,18 @@
+name: kradle
+description: Commandline tool for klutter. Klutter let's you write Flutter plugins for both Android and iOS using Kotlin only.
+
+version: 1.0.0
+homepage: https://buijs.dev
+repository: https://github.com/buijs-dev/kradle
+
+environment:
+  sdk: "^3.0.0"
+
+dependencies:
+  args: ^2.4.2
+
+dev_dependencies:
+  coverage: ^1.7.2
+  dartdoc: ^8.0.3
+  pana: ^0.22.2
+  test: ^1.24.1

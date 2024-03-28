@@ -1,0 +1,6 @@
+dartdoc:
+  categories:
+    "gradle":
+      markdown: doc/gradle.md
+      name: gradle
+  categoryOrder: ["consumer", "producer", "gradle"]
