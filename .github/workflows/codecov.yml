@@ -31,8 +31,8 @@ jobs:
 
       # Upload coverage data
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v3
-        env:
-          CODECOV_TOKEN: ${{secrets.CODECOV_TOKEN}}
+        uses: codecov/codecov-action@v4.0.1
         with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: buijs-dev/kradle
           file: coverage.lcov

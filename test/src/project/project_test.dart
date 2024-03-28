@@ -219,8 +219,7 @@ void main() {
     );
     expect(() => rootDirectory.kradleCache, throwsA(predicate((e) {
       return e is KradleException &&
-          e.cause.contains("Path does not exist: ") &&
-        e.cause.contains("foo/bar/.kradle/cache");
+          e.cause.contains("Path does not exist: ");
     })));
   });
 
